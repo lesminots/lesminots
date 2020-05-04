@@ -1,0 +1,494 @@
+html{
+     margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-repeat:no-repeat;
+    background-repeat:no-repeat;
+    position: relative;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+
+    
+    
+/*#### WELCOME #####*/
+
+}
+#fond {
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+}
+#fond img{
+    width: 100%;
+}
+
+
+#fond input{
+    box-shadow: 0px 0px 50px #000;
+    border-radius: 10px;
+    border: 0px;
+    left: 50%;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 22px; 
+    color: #777;
+    letter-spacing: 2px;
+    top: 70%;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    transform: translate(-50%, -50%); /* compatibilité : ie9+ */
+    background-color: transparent;
+    color: #fff;
+    transition-duration: 400ms;
+    
+}
+#fond input:hover{
+    background-color: #111;
+    color: #fff;
+    
+    
+}
+#fond input{
+    outline: 0;
+}
+
+
+/*#### END #####*/
+
+
+
+/*#### MENU #####*/
+a{
+    text-decoration: none;
+    list-style: none;
+    color: #999;
+    
+}
+
+#menu{
+    margin: 2% 0% 5% 0%;
+}
+#menu table{
+    margin-top: 1%;
+    width: 50%;
+}
+#menu td{
+    cursor: default;
+    width: 10%;
+    text-align: center;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 12px; 
+    color: #777;
+    letter-spacing: 2px; 
+    background-color: transparent; 
+    font-weight: normal; 
+    font-style: initial;
+    text-decoration: none; 
+    border-radius: 20px;
+
+}
+#menu td a:hover {
+    color: #555;
+    
+}
+#menu #img img{
+    padding: 0;
+    width: 80%; 
+}
+#menu #img{
+    text-align: center;
+    width: 30%;
+    margin: 0%;
+    padding: 0%;
+}
+
+/*#### END #####*/
+
+
+/*#### SLIDER #####*/
+
+#fond{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #000;
+    top:0;
+    opacity: 0.90;
+}
+#slider{
+    display: none;
+    color: #fff;
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+}
+#slider a{
+    margin: 1% 0% 0% 1%;
+    color: #fff;
+    font-size: 50px;
+    cursor: default;
+    position: fixed;
+    font-family: monospace;
+}
+#slider table {
+    margin: 1% 30% 0% 30%;
+    background-color: firebrick;
+    width: 45%;
+    
+}
+#slider td {
+   background-color: aqua;
+    width: 100%;
+    
+}
+#slider td img{
+    width: 100%;;
+}
+
+/*#### END #####*/
+
+
+/*#### DISCOVER #####*/
+#creat{
+    z-index: 1;
+    padding: 2% 2% 0% 2%;
+    
+}
+#creat table{
+    width: 100%;
+}
+#creat td{
+    width: 50%;
+}
+
+#creat td img{
+    width: 100%;
+}
+
+/*#### END #####*/
+
+
+/*#### OUR STORY #####*/
+
+#fondOur{
+ 
+   
+}
+#fondOur table{
+   width: 100%;
+    padding-bottom: 10%;
+}
+
+#fondOur td{
+    width: 55%;
+    padding-right: 5%;
+    color: #777;
+    font-size: 90%;
+}
+#fondOur td img{
+    width: 100%;
+    
+}
+#fondOur td h1{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 25px; 
+    color: #555;
+    font-weight: 100;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+
+
+   
+
+}
+/*#### END #####*/
+
+
+
+/*#### MENTIONS #####*/
+
+#mentions{
+    color: #777;
+    width: 80%;
+    margin: 0% 5%;
+    margin-bottom: 5%;
+    
+}
+#mentions h1{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 25px; 
+    color: #555;
+    font-weight: 100;
+    letter-spacing: 2px;
+    background-color: ;
+    width: 50%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #000;
+}
+#mentions h2{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 20px; 
+    color: #666;
+    font-weight: 800;
+    letter-spacing: 2px;
+    background-color: ;
+    margin-top: 3%;
+
+}
+#mentions li{
+    text-align: justify-all;
+    font-family: none;
+    font-weight: 100;
+    font-family: georgia; 
+    font-size: 15px; 
+}
+
+/*#### END #####*/
+
+
+
+/*#### FOOTER #####*/
+
+#footer{
+    background-color: #fefefefe;
+    color: #777;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 12px;  
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 0%;
+    border-top: 0px solid #000;
+    box-shadow: 0px 0px 10px;
+
+}
+
+#footer table{
+    padding-top: 2%;
+    width: 80% ;
+    border-spacing: 10px;
+    margin-left: 10%;
+
+    
+
+}
+#footer .t {
+    background-color: ;
+    width: 0%;
+    border-bottom: 0px solid #000;
+   
+
+}
+#footer th{
+
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 20px; 
+    letter-spacing: 2px; 
+    background-color: ; 
+    font-weight: normal; 
+    font-style: initial;
+    text-decoration: none; 
+    width: 0%;
+    color: #000;
+    padding-bottom: 0%;
+    margin-right: 10%;
+    text-align: left;
+    border-bottom: 1px solid #000;
+}
+
+#footer td{
+    cursor: default;
+    width: 2%;
+    text-align: left;
+    background-color:;
+    border-radius: 50px;
+}
+#footer td p{
+    transition-duration: 600ms;
+}
+#footer td p:hover{
+    color: #000;
+}
+#footer td img{
+    width: 10%;
+    background-color: #000;
+    border-radius: 50px;
+}
+
+#footer td img:hover{
+    box-shadow: 0px 0px 10px;
+
+}
+
+/*#### END #####*/
+
+/*#### MOBILE #####*/
+
+#fondOur_mobile{
+    display: none;
+}
+#footer_mobile{
+    display: none;
+}
+#menu_mobile{
+    display: none;
+}
+
+@media screen and (max-device-width:880px) {
+    
+    
+
+/*#### MOBILE_MENU #####*/  
+#menu{
+    display: none;
+}    
+#menu_mobile{
+    
+    width: 80%;
+    margin: 0% 10%;
+    display: block;
+}
+    #logo{
+        text-align: center;
+        margin: 0%;
+        padding: 0%;
+    }
+    #logo img{
+        width: 50%;
+        margin: 0px;
+    }
+    #menu_mobile table{
+        margin: 0%;
+        width: 100%;
+        text-align: center;
+    }
+    #menu_mobile td{
+        text-align: center;
+    }
+    #menu_mobile td a{
+        text-align: center;
+    }
+    
+    
+/*#### END #####*/
+
+    
+    
+    
+#fondOur{
+    display: none;
+}
+
+#fondOur_mobile{
+    display: block;
+    width: 80%;
+    margin: 0% 10%;
+
+
+   
+}
+#fondOur_mobile table{
+    width: 100%;
+    padding-bottom: 10%;
+}
+
+#fondOur_mobile td{
+    width: 55%;
+    padding-right: 0%;
+    color: #777;
+    font-size: 90%;
+}
+#fondOur_mobile td img{
+    width: 100%;
+    
+}
+#fondOur_mobile td h1{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    font-size: 25px; 
+    color: #555;
+    font-weight: 100;
+    padding-bottom: 2%;
+    border-bottom: 1px solid black;
+
+
+   
+
+}
+     
+
+/*#### MOBILE_FOOTER #####*/
+    
+#footer{
+        display: none;
+    }
+#footer_mobile{
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif; 
+    display: block;
+    color: #555;
+    box-shadow: 0px 0px 10px;
+
+}
+
+#footer_mobile table{
+    
+    width: 90%;
+    margin: 0% 5%;
+    text-align: center;  
+
+}
+
+#footer_mobile th{
+    font-weight: 100;
+    font-size: 80%;
+     border-bottom: 1px solid #000;
+    
+}
+#footer_mobile .t{
+    border-bottom: 0px;
+    
+}
+
+#footer_mobile td{
+    font-size: 50%;
+    text-decoration: none;
+    width: 10%;
+    background-color: ;
+   
+}
+#footer_mobile td p{
+    transition-duration: 600ms;
+}
+#footer_mobile td p:hover{
+}
+#footer_mobile td img{
+   width: 20%;
+    background-color: black;
+    border-radius: 50px;
+
+}
+a:link {
+    text-decoration: none;
+    color: #000000;
+}
+
+#footer_mobile td img:hover{
+
+}
+ /*#### END_MOBILE_FOOTER #####*/
+
+    
+    
+}
+
+
+
+
+
+
+
